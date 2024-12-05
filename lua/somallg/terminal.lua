@@ -21,7 +21,10 @@ local function get_code_block_at_cursor()
 end
 
 local function send_to_terminal(cmd)
-  local terminal = Snacks.terminal.get(nil, { cwd = LazyVim.root(), win = { position = "right" } })
+  local terminal = Snacks.terminal.get(nil, {
+    cwd = LazyVim.root(),
+    win = { position = "right", width = 0.5 },
+  })
 
   if terminal == nil then
     print("No terminal found")
