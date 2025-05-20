@@ -4,3 +4,6 @@
 
 -- Disable autoformat globally
 vim.g.autoformat = false
+
+-- Disable all animations
+vim.g.snacks_animate = false
