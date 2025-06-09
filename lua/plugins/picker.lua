@@ -5,7 +5,7 @@ return {
     picker = {
       formatters = {
         file = {
-          truncate = math.huge,
+          truncate = 120,
         },
       },
     },
