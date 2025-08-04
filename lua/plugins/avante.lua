@@ -6,6 +6,9 @@ return {
     "nvim-lua/plenary.nvim",
     "MunifTanjim/nui.nvim",
   },
+  keys = {
+    { "<leader>a", "", desc = "+ai", mode = { "n", "v" } },
+  },
   ---@module 'avante'
   ---@type avante.Config
   opts = {
