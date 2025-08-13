@@ -5,24 +5,28 @@ return {
       "nvim-lua/plenary.nvim",
       "nvim-treesitter/nvim-treesitter",
     },
+    event = "VeryLazy",
     ---@module "codecompanion"
     opts = {
       strategies = {
         chat = {
-          adapter = "copilot",
-          model = "claude-sonnet-4",
+          adapter = {
+            name = "copilot",
+            model = "claude-sonnet-4",
+          },
         },
         cmd = {
-          adapter = "copilot",
-          model = "claude-sonnet-4",
+          adapter = {
+            name = "copilot",
+            model = "claude-sonnet-4",
+          },
         },
         inline = {
-          adapter = "copilot",
-          model = "claude-sonnet-4",
+          adapter = {
+            name = "copilot",
+            model = "claude-sonnet-4",
+          },
         },
-      },
-      opts = {
-        log_level = "DEBUG",
       },
     },
   },
