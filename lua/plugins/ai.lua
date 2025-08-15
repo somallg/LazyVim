@@ -8,6 +8,13 @@ return {
     event = "VeryLazy",
     ---@module "codecompanion"
     opts = {
+      display = {
+        chat = {
+          window = {
+            width = 0.5,
+          },
+        },
+      },
       strategies = {
         chat = {
           adapter = {
