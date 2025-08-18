@@ -9,13 +9,17 @@ return {
       { "<leader>a", "", desc = "+ai", mode = { "n", "v" } },
       {
         "<leader>aa",
-        "<cmd>CodeCompanionChat<cr>",
+        function()
+          return require("codecompanion").toggle()
+        end,
         desc = "Toggle (CodeCompanion)",
         mode = { "n", "v" },
       },
       {
         "<leader>ap",
-        "<cmd>CodeCompanionActions<cr>",
+        function()
+          return require("codecompanion").actions({})
+        end,
         desc = "Prompt Actions (CodeCompanion)",
         mode = { "n", "v" },
       },
