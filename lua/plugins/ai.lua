@@ -5,6 +5,21 @@ return {
       "nvim-lua/plenary.nvim",
       "nvim-treesitter/nvim-treesitter",
     },
+    keys = {
+      { "<leader>a", "", desc = "+ai", mode = { "n", "v" } },
+      {
+        "<leader>aa",
+        "<cmd>CodeCompanionChat<cr>",
+        desc = "Toggle (CodeCompanion)",
+        mode = { "n", "v" },
+      },
+      {
+        "<leader>ap",
+        "<cmd>CodeCompanionActions<cr>",
+        desc = "Prompt Actions (CodeCompanion)",
+        mode = { "n", "v" },
+      },
+    },
     event = "VeryLazy",
     ---@module "codecompanion"
     opts = {
