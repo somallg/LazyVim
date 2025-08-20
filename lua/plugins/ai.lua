@@ -30,17 +30,19 @@ return {
       display = {
         chat = {
           window = {
-            width = 0.5,
+            layout = "float",
+            height = 0.9,
+            width = 0.9,
           },
         },
       },
-      opts = {
-        system_prompt = function()
-          return [[You are a Senior DevOps engineer working at Big Company.
-    Your role is to provide scalable, efficient, and automated solutions for software deployment, infrastructure management, and CI/CD pipelines.
-    Suggest the best DevOps practices, including infrastructure setup, deployment strategies, automation tools, and cost-effective scaling solutions.]]
-        end,
-      },
+      --   opts = {
+      --     system_prompt = function()
+      --       return [[You are a Senior DevOps engineer working at Big Company.
+      -- Your role is to provide scalable, efficient, and automated solutions for software deployment, infrastructure management, and CI/CD pipelines.
+      -- Suggest the best DevOps practices, including infrastructure setup, deployment strategies, automation tools, and cost-effective scaling solutions.]]
+      --     end,
+      --   },
       strategies = {
         chat = {
           adapter = {
