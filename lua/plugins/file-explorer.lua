@@ -5,6 +5,11 @@ return {
     ---@type snacks.Config
     opts = {
       picker = {
+        formatters = {
+          file = {
+            truncate = 120,
+          },
+        },
         sources = {
           explorer = { hidden = true },
           files = { hidden = true },
