@@ -52,7 +52,7 @@ return {
         chat = {
           adapter = {
             name = "copilot",
-            model = "claude-sonnet-4",
+            model = "gemini-2.5-pro",
           },
           opts = {
             system_prompt = devops_prompt,
