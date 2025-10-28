@@ -52,11 +52,11 @@ return {
         chat = {
           adapter = {
             name = "copilot",
-            model = "claude-sonnet-4", -- "claude-3.7-sonnet-thought", "o4-mini", "claude-sonnet-4", "o3", "claude-opus-4", "claude-3.5-sonnet", "gemini-2.5-pro", "claude-3.7-sonnet", "o3-mini", "gpt-4.1", "gemini-2.0-flash-001",
+            model = "claude-sonnet-4",  -- "o3", "gpt-4o", "gpt-4.1", "claude-opus-4", "claude-3.5-sonnet", "o4-mini", "o3-mini", "claude-3.7-sonnet", "gemini-2.0-flash-001", "claude-3.7-sonnet-thought", "gemini-2.5-pro", "claude-sonnet-4", 
           },
-          opts = {
-            system_prompt = devops_prompt,
-          },
+          -- opts = {
+          --   system_prompt = devops_prompt,
+          -- },
         },
       },
     },
