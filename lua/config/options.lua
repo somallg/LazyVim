@@ -7,3 +7,6 @@ vim.g.snacks_animate = false
 
 -- Disable auto-format globally
 vim.g.autoformat = false
+
+-- Disable conceallevel
+vim.opt.conceallevel = 0
