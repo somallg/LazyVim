@@ -12,6 +12,12 @@ return {
           grep_word = { hidden = true },
         },
       },
+      terminal = {
+        win = {
+          position = "right",
+          width = 0.5,
+        },
+      },
     },
   },
 }
