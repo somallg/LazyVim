@@ -3,7 +3,7 @@ return {
     "LazyVim/LazyVim",
     ---@type LazyVimOptions
     opts = {
-      colorscheme = "catppuccin-latte",
+      colorscheme = "tokyonight-storm",
     },
   },
 }
