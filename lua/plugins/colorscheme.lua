@@ -1,9 +1,10 @@
 return {
+  { "rebelot/kanagawa.nvim" },
   {
     "LazyVim/LazyVim",
     ---@type LazyVimOptions
     opts = {
-      colorscheme = "tokyonight-storm",
+      colorscheme = "kanagawa-wave",
     },
   },
 }
